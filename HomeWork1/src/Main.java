@@ -49,7 +49,7 @@ public class Main {
             var boxerAddWeight = boxerFirstWeight + boxerSecondWeight;
             System.out.println("Общая масса боксеров " + boxerAddWeight+ " кг");
             var boxerResidueWeight = boxerSecondWeight - boxerFirstWeight;
-            System.out.println("Разница в весе боксеров " + boxerResidueWeight+ " кг.");
+            System.out.println("разница в весе боксеров " + boxerResidueWeight+ " кг.");
             System.out.println();
             System.out.println("Задача номер №7 (Разница в весе через остаток от деления)");
             var athleteFerstWeight =(boxerSecondWeight% boxerFirstWeight);
