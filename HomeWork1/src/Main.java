@@ -59,7 +59,7 @@ public class Main {
             var overallTime = 640;
             var timePerson = 8;
             var numberOfPersonnel = overallTime / timePerson;
-            System.out.println("Всего работников в компании — " + numberOfPersonnel+ " человек.");
+            System.out.println("Всего работников в компании — " + numberOfPersonnel+ " человек");
             var addNumberOfPersonnel = numberOfPersonnel + 94;
             var newOverallTime = addNumberOfPersonnel * timePerson;
             System.out.println("Если в компании работает " + addNumberOfPersonnel+ " человека, то всего " + newOverallTime+ " часа работы может быть поделено между сотрудниками");
