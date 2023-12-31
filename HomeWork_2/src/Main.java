@@ -74,9 +74,9 @@ public class Main {
         System.out.println();
         System.out.println("Задача 7");
         int slowWeightLossKg = (int)(7/(250/1000f));
-        System.out.println("Количество дней при медленном похудении составит " + slowWeightLossKg+ " дней");
+        System.out.println("Количество дней при медленном похудении составит " + slowWeightLossKg+ " дней,");
         int quickWeightLossKg = (int)(7/(500/1000f));
-        System.out.println("Количество дней при более быстром похудении составит " + quickWeightLossKg+ " дней");
+        System.out.println("Количество дней при более быстром похудении составит " + quickWeightLossKg+ " дней,");
         int averageNumberOfActions = (slowWeightLossKg + quickWeightLossKg)/2;
         System.out.println("В среднем потребуется " + averageNumberOfActions+ " день, чтобы добиться желаемого результата.");
         System.out.println();
